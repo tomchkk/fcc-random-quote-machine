@@ -1,0 +1,92 @@
+html {
+	background-color: black;
+	background-image: url('https://unsplash.it/1024/683/?random');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+body,
+.fa {
+	color: white;
+}
+
+#blur-banner {
+	position: fixed;
+	top: 15%;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.7);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+	padding-top: 2%;
+}
+
+.container {
+	padding: 15px;
+}
+
+blockquote {
+	border-bottom: 1px solid white;
+	border-left: none;
+	margin: 0;
+	padding-left: 0;
+}
+
+#menu {
+	margin-top: 5px;
+}
+
+#menu > div {
+	padding: 5px;
+	border-radius: 100%;
+	height: 35px;
+	width: 35px;
+	text-align: center;
+}
+
+#menu #btn-quote-refresh a .fa {
+	vertical-align: -35%;
+}
+
+#menu > div:hover {
+	background-color: white;
+}
+
+#menu > div:hover .fa {
+	color: rgba(0, 0, 0, 0.9);
+}
+
+#menu .tip + .tooltip {
+	margin-top: 20px;
+}
+
+#btn-quote-refresh {
+	margin-right: 20px;
+}
+
+#credits {
+	padding: 5px;
+}
+
+#resources {
+	color: #cccccc
+}
+
+#credits .tip + .tooltip {
+	margin-top: 10px;
+}
+
+.tip + .tooltip > .tooltip-inner {
+	background: rgba(250, 250, 250, 0.7);
+	-webkit-backdrop-filter: blur(5px);
+	backdrop-filter: blur(5px);
+	padding: 5px;
+	margin-right: 5px;
+	color: black;
+	white-space: nowrap;
+}
+
+.tip + .tooltip > .tooltip-arrow {
+	display: none;
+}

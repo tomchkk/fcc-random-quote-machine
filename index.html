@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>FCC - Random Quote Machine</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <div id="blur-banner">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
+
+				<div class="row">
+					<blockquote>
+						<i class="fa fa-quote-left fa-2x fa-pull-left" aria-hidden="true"></i>
+						<div id="quote-refresh-icon" class="text-center">
+							<i class="fa fa-refresh fa-lg fa-spin fa-fw"></i>
+							<span class="sr-only">Loading...</span>
+						</div>
+						<div id="quote-content">
+						</div>
+						<div id="quote-title">
+							<footer><!--empty element required--></footer>
+						</div>
+					</blockquote>
+				</div>
+				<!--/row-->
+
+				<div class="row">
+					<div id="menu" class="pull-right">
+						<div id="btn-quote-refresh" class="pull-left">
+							<a href="#" target="_blank" class="tip" data-toggle="tooltip" data-placement="left" title="New quote">
+								<i class="fa fa-random fa-lg" aria-hidden="true"></i>
+							</a>
+						</div>
+						<div id="btn-quote-tweet" class="pull-right">
+							<a href="#" target="_blank" class="tip" data-toggle="tooltip" data-placement="left" title="Tweet this quote!">
+								<i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+							</a>
+						</div>
+					</div>
+					<!--/menu-->
+				</div>
+				<!--/row-->
+
+			</div>
+			<!--/columns-->
+		</div>
+		<!--/row-->
+	</div>
+	<!--/container-->
+
+	<footer>
+		<div id="credits">
+			<div id="info" class="pull-right">
+				<a href="https://www.freecodecamp.com/tomchkk" target="_blank" class="tip" data-toggle="tooltip" data-placement="bottom">
+					<i class="fa fa-info-circle" aria-hidden="true"></i>
+				</a>
+			</div>
+			<div id="resources" class="pull-left">
+				<p class="small">
+					Powered by <a href="http://quotesondesign.com" target="_blank"><i>Quotes on Design</i></a>
+					& <a href="https://unsplash.it"><i>Unsplash</i></a>
+				</p>
+			</div>
+		</div>
+	</footer>
+
+</div>
+<!--/blur-banner-->
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
